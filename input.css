@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/assets/Montserrat/Montserrat-VariableFont_wght.ttf');
+  }
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('/assets/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf');
+}
+
+@keyframes bounce {
+    0%, 100% {
+      transform: translateY(-225px);
+      animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    }
+    50% {
+      transform: translateY(-200px);
+      animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+  }
