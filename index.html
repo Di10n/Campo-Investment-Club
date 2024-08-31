@@ -8,21 +8,21 @@
   </head>
   <body>
     <script src="script.js"></script>
-    <div class="block bg-black w-screen h-screen">
-      <div class="grid grid-cols-2 w-full h-full">
-        <div class="flex flex-col justify-center">
-          <p class="text-white font-title text-4xl font-bold mx-24">Welcome to the Campolindo Investment Club!</p>
-          <p class="text-white font-title text-xl font-normal mx-24 pr-48 mt-12">Our club teaches Campolindo High School students about investing and careers in the investment field.</p>
-          <a class="text-white font-title text-lg font-normal text-left mr-auto ml-24 mt-12 border-green-500 border-2 rounded-[24px] py-3 px-6 hover:bg-green-500 hover:text-black duration-200" href="https://forms.gle/YtpVLRxLEDf9hx2KA" target="_blank">Join Now</a>
+    <div class="block bg-black w-screen h-screen overflow-clip">
+      <div class="grid grid-cols-2 lg:grid-cols-1 w-full h-full">
+        <div class="flex flex-col items-center justify-center h-screen ml-12 lg:ml-0 lg:justify-start">
+          <div class="flex flex-col px-12 lg:px-24 sm:px-6 lg:max-w-[800px] lg:mt-[33%] sm:mt-24">
+            <p class="text-white font-title text-4xl font-bold mx-auto lg:text-center">Welcome to the Campolindo Investment Club!</p>
+            <p class="text-white font-title text-xl font-normal pr-24 mt-12 mb-12 lg:text-center lg:pr-0">Our club teaches Campolindo High School students about investing and careers in the investment field.</p>
+            <a class="text-white font-title text-lg font-normal text-left mr-auto border-green-500 border-2 rounded-[24px] py-3 px-6 hover:bg-green-500 hover:text-black duration-200 lg:mx-auto" href="https://forms.gle/YtpVLRxLEDf9hx2KA" target="_blank">Join Now</a>
+          </div>
         </div>
-        <div class="overflow-clip">
-          <img class="w-full -translate-y-[200px]" src="assets/landing-image.jpg"></img>
-        </div>
+        <img class="mt-auto" src="assets/landing-image.jpg"></img>
       </div>
-      <svg id="scroller" class="w-36 h-36 mx-auto border-black animate-bounce cursor-pointer" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white">
+      <svg id="scroller" class="w-36 h-36 sm:hidden mx-auto border-black animate-bounce cursor-pointer" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white">
         <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
       </svg>    
     </div>
-    <div class="block bg-white w-screen h-screen"> </div>
+    <div class="block bg-white w-screen h-screen"></div>
   </body>
 </html>
